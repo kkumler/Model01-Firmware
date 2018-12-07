@@ -464,9 +464,9 @@ void setup() {
   // needs to be explicitly told which keymap layer is your numpad layer
   NumPad.numPadLayer = NUMPAD;
 
-  // The LED Stalker mode has a few effects. The one we like is
-  // called 'BlazingTrail'. For details on other options,
-  // see https://github.com/keyboardio/Kaleidoscope-LED-Stalker
+  // The LED Stalker mode has a few effects. The one we like is called
+  // 'BlazingTrail'. For details on other options, see
+  // https://github.com/keyboardio/Kaleidoscope/blob/master/doc/plugin/LED-Stalker.md
   StalkerEffect.variant = STALKER(BlazingTrail);
 
   // We want to make sure that the firmware starts with LED effects off
