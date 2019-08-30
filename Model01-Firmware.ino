@@ -39,6 +39,9 @@
 // when the keyboard is connected to a computer (or that computer is powered on)
 #include "Kaleidoscope-LEDEffect-BootGreeting.h"
 
+// Support for LED modes that pulse the keyboard's LED in a rainbow pattern
+#include "Kaleidoscope-LEDEffect-Rainbow.h"
+
 // Support for LED modes that set all LEDs to a single color
 #include "Kaleidoscope-LEDEffect-SolidColor.h"
 
@@ -46,7 +49,7 @@
 #include "Kaleidoscope-LED-Stalker.h"
 
 // Support for an LED mode that prints the keys you press in letters 4px high
-// #include "Kaleidoscope-LED-AlphaSquare.h"
+#include "Kaleidoscope-LED-AlphaSquare.h"
 
 // Support for shared palettes for other plugins, like Colormap below
 #include "Kaleidoscope-LED-Palette-Theme.h"
